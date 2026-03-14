@@ -1,0 +1,28 @@
+{
+  "name": "statement-parser",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/TravClement/statement-parser#readme",
+  "bugs": {
+    "url": "https://github.com/TravClement/statement-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravClement/statement-parser.git"
+  },
+  "license": "ISC",
+  "author": "Travis",
+  "type": "commonjs",
+  "main": "",
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node dist/main.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0"
+  }
+}
